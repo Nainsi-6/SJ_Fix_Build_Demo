@@ -23,7 +23,7 @@ const transformations: TransformationItem[] = [
     timeline: "8 Weeks",
     investmentValue: "$85k Est.",
     valueAdded: "+22% Home Equity",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: 't-2',
@@ -34,7 +34,7 @@ const transformations: TransformationItem[] = [
     timeline: "5 Weeks",
     investmentValue: "$48k Est.",
     valueAdded: "+15% Home Equity",
-    image: "https://images.unsplash.com/photo-1620626011761-996317b69763?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: 't-3',
