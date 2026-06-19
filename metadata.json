@@ -1,0 +1,6 @@
+{
+  "name": "SJ Fix & Build",
+  "description": "Premium renovation and home improvement services across Saint John, Fredericton, and surrounding communities in New Brunswick.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
