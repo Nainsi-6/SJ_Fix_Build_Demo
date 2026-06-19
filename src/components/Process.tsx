@@ -6,16 +6,16 @@ export default function Process() {
     {
       number: '01',
       title: 'Structural Architecture & Design Discovery',
-      lead: 'Directed by Clara James, Spatial Designer',
+      lead: 'Led by our Spatial Design Planner',
       description: 'We sit down in your home for a comprehensive dialogue mapping out your visual preferences, daily workflows, and materials. We draft high-resolution space layout outlines, select custom stone patterns, and map out integrated electrical/fixtures blueprints.',
       icon: Compass,
-      image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=700'
+      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=700'
     },
     {
       number: '02',
       title: 'The Transparent Itemized Cost Blueprint',
       lead: 'No vague, unexpected contractor surcharges',
-      description: 'Sergei James calculates an absolute construction blueprint detailing all material costs, specialty plumbing hours, bespoke millwork manufacturing, and expected site management timelines. You authorize exactly what is built and approve every budget ceiling beforehand.',
+      description: 'Our estimating experts calculate an absolute construction blueprint detailing all material costs, specialty plumbing hours, bespoke millwork manufacturing, and expected site management timelines. You authorize exactly what is built and approve every budget ceiling beforehand.',
       icon: FileText,
       image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=700'
     },
@@ -31,7 +31,7 @@ export default function Process() {
       number: '04',
       title: 'Artisanal Carpentry & Premium Installation',
       lead: 'Done by our dedicated, in-house team',
-      description: 'Our master craftsmen cut, shape, and install your rift-sawn timbers, custom bookcases, and premium tile layouts with absolute precision down to decimal millimeters. We do not use hasty, sub-contracted general labor; Sergei inspects joints and levels daily.',
+      description: 'Our master craftsmen cut, shape, and install your rift-sawn timbers, custom bookcases, and premium tile layouts with absolute precision down to decimal millimeters. We do not use hasty, sub-contracted general labor; our team inspects alignment and levels daily.',
       icon: Hammer,
       image: 'https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?auto=format&fit=crop&q=80&w=700'
     },

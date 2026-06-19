@@ -31,7 +31,7 @@ export default function Testimonials() {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400 max-w-sm leading-relaxed">
-            Pristine spaces, responsive updates, and master woodwork. <span className="hidden sm:inline">This represents real feedback submitted by clients across Saint John and Rothesay.</span>
+            Pristine spaces, responsive updates, and master woodwork. <span className="hidden sm:inline">This represents real feedback submitted by our valued clients.</span>
           </p>
         </div>
 

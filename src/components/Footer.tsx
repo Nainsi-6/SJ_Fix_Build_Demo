@@ -39,12 +39,12 @@ export default function Footer() {
               SJ<span className="text-[#D18B5B]">.</span> FIX &amp; BUILD
             </span>
             <span className="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-semibold pt-1">
-              Saint John, New Brunswick
+              Home Improvement Experts
             </span>
           </div>
 
           <p className="text-xs leading-relaxed text-neutral-400">
-            A premium residential design-build renovation company specializing in custom millwork, spa-level bathroom remodels, and architectural kitchens throughout Saint John, Rothesay, and Fredericton.
+            A premium residential design-build renovation company specializing in custom millwork, spa-level bathroom remodels, and architectural kitchens. Constructed with timeless visual refinement and lasting durability.
           </p>
 
           <div className="flex items-center space-x-3 pt-2">
@@ -87,7 +87,7 @@ export default function Footer() {
                 onClick={() => scrollToId('process')}
                 className="hover:text-white transition-colors duration-200"
               >
-                The SJ Method
+                Our Systemized Process
               </button>
             </li>
             <li>
@@ -95,7 +95,7 @@ export default function Footer() {
                 onClick={() => scrollToId('about')}
                 className="hover:text-white transition-colors duration-200"
               >
-                About Sergei &amp; Clara
+                About Our Artisans
               </button>
             </li>
             <li>
@@ -136,23 +136,23 @@ export default function Footer() {
         {/* Column 4: Physical Coordinates */}
         <div className="md:col-span-3 space-y-4 text-xs">
           <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-white">
-            SJ COORDINATES
+            CONTACT INFO
           </span>
           <ul className="space-y-3">
             <li className="flex items-start">
               <MapPin className="w-4 h-4 mr-2.5 text-[#D18B5B] shrink-0 mt-0.5" />
               <span>
-                Uptown Office &amp; Design Studio,<br />
-                Saint John, NB, E2L 1G3
+                Main Office &amp; Design Studio,<br />
+                Your Selected Location
               </span>
             </li>
             <li className="flex items-center">
               <Phone className="w-4 h-4 mr-2.5 text-[#D18B5B] shrink-0" />
-              <span>+1 (506) 555-0192</span>
+              <span>+1 (800) 555-0192</span>
             </li>
             <li className="flex items-center">
               <Mail className="w-4 h-4 mr-2.5 text-[#D18B5B] shrink-0" />
-              <span>blueprint@sjfixbuild.ca</span>
+              <span>remodel@premiumrenovations.com</span>
             </li>
             <li className="flex items-start">
               <Clock className="w-4 h-4 mr-2.5 text-[#D18B5B] shrink-0 mt-0.5" />
@@ -170,7 +170,7 @@ export default function Footer() {
       <div className="border-t border-neutral-900 bg-neutral-950/70 text-[11px] text-neutral-600 transition-colors duration-300">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-center md:text-left leading-relaxed">
-            &copy; {new Date().getFullYear()} SJ Fix &amp; Build Ltd. All Rights Reserved. Fully Licensed General Contractor in New Brunswick.
+            &copy; {new Date().getFullYear()} Premium Renovations Ltd. All Rights Reserved. Fully Licensed, Bonded &amp; Insured Home Improvement Experts.
           </p>
 
           <div className="flex items-center space-x-6 text-neutral-500">

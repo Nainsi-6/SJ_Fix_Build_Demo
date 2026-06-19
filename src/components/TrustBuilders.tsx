@@ -8,7 +8,7 @@ export default function TrustBuilders() {
       icon: Shield,
       title: 'Full General Liability & Insurance',
       subtitle: 'Complete peace of mind for every square inch.',
-      description: 'Fully licensed in the Province of New Brunswick with comprehensive active construction insurance. Every artisan on our team is meticulously covered, ensuring absolute legal and financial safety throughout your renovation.'
+      description: 'Fully licensed with comprehensive active general construction and liability insurance. Every artisan on our team is meticulously covered, ensuring absolute legal and financial safety throughout your renovation.'
     },
     {
       id: 'free-estimates',
@@ -20,16 +20,16 @@ export default function TrustBuilders() {
     {
       id: 'local-contractor',
       icon: MapPin,
-      title: 'Deeply Rooted Saint John Team',
+      title: 'Deeply Rooted Local Team',
       subtitle: 'We build for our neighbours and friends.',
-      description: 'We live, sleep, and breathe Saint John, Rothesay, Millidgeville, and Quispamsis. Our knowledge of coastal weather dynamics, historic local timbers, and Atlantic architecture ensures that our renovations stand strong for generations.'
+      description: 'We live, sleep, and breathe premium home improvement. Our knowledge of local weather dynamics, historic timbers, and timeless architecture ensures that our renovations stand strong for generations.'
     },
     {
       id: 'satisfaction-guarantee',
       icon: Sparkles,
       title: 'Standard Workmanship Guarantee',
       subtitle: 'Our craftsmanship endures long after completion.',
-      description: 'We stand by every joint, miter, tile grout-line, and deck footer. SJ Fix & Build offers a comprehensive structural warranty to correct any alignment settling or finish details. If you are not fully satisfied, we make it perfect.'
+      description: 'We stand by every joint, miter, tile grout-line, and deck footer. Our company offers a comprehensive structural warranty to correct any alignment settling or finish details. If you are not fully satisfied, we make it perfect.'
     },
     {
       id: 'fast-response',
@@ -51,7 +51,7 @@ export default function TrustBuilders() {
           {/* Left Side: Elegant Text Narrative */}
           <div className="lg:col-span-4 space-y-4 lg:space-y-6 lg:sticky lg:top-32">
             <span className="text-[10px] sm:text-xs uppercase tracking-[0.25em] font-extrabold text-terracotta dark:text-dark-accent">
-              The SJ Standards
+              Our Standards
             </span>
             <h2 className="font-serif text-2xl sm:text-4xl text-gray-900 dark:text-white leading-tight">
               An Architectural Approach Built on Absolute Trust
@@ -63,7 +63,7 @@ export default function TrustBuilders() {
             <div className="pt-4 flex items-center space-x-3 text-gray-500 dark:text-zinc-400">
               <Compass className="w-8 h-8 text-neutral-400 dark:text-neutral-600" />
               <p className="text-xs font-mono">
-                Est. Saint John • Licensed NB-094382
+                Est. Local Studio • Fully Licensed &amp; Insured
               </p>
             </div>
           </div>

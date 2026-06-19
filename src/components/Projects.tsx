@@ -63,7 +63,7 @@ export default function Projects() {
             Our Portfolio of Masterful Renovations
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-zinc-400 max-w-xl">
-            Drag the comparison bar to inspect our precise restoration transitions, <span className="hidden sm:inline">showcasing actual before &amp; after transformations in Saint John.</span>
+            Drag the comparison bar to inspect our precise restoration transitions, <span className="hidden sm:inline">showcasing actual before &amp; after transformations.</span>
           </p>
         </div>
 

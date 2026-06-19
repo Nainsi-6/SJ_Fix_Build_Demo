@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="hero-section"
-      className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-warm-ivory dark:bg-dark-bg pt-24"
+      className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-warm-ivory dark:bg-dark-bg pt-36 pb-12 sm:pt-36 sm:pb-16 lg:pt-24 lg:pb-0"
     >
       {/* Editorial Grid Backing */}
       <div className="absolute inset-0 z-0 opacity-40 dark:opacity-15 pointer-events-none">
@@ -69,7 +69,7 @@ export default function Hero() {
               transition={{ duration: 0.9, delay: 0.2 }}
               className="font-sans text-xs sm:text-base lg:text-lg text-gray-600 dark:text-zinc-300 max-w-xl leading-relaxed"
             >
-              Premium residential renovations across Saint John and Rothesay. <span className="hidden sm:inline">Done with premium materials, absolute budget transparency, and professional master woodcraft.</span>
+              Premium residential renovations across your region. <span className="hidden sm:inline">Done with premium materials, absolute budget transparency, and professional master woodcraft.</span>
             </motion.p>
           </div>
 
@@ -112,8 +112,8 @@ export default function Hero() {
               <span className="text-[9px] sm:text-[10px] uppercase font-semibold tracking-wider text-gray-500 dark:text-zinc-400">Experience</span>
             </div>
             <div>
-              <span className="block font-serif text-base sm:text-2xl lg:text-3xl font-semibold text-gray-950 dark:text-white truncate">Saint John</span>
-              <span className="text-[9px] sm:text-[10px] uppercase font-semibold tracking-wider text-gray-500 dark:text-zinc-400">Local Crew</span>
+              <span className="block font-serif text-base sm:text-2xl lg:text-3xl font-semibold text-gray-950 dark:text-white truncate">Local Team</span>
+              <span className="text-[9px] sm:text-[10px] uppercase font-semibold tracking-wider text-gray-500 dark:text-zinc-400 font-sans">Active Experts</span>
             </div>
           </motion.div>
         </div>
@@ -141,7 +141,7 @@ export default function Hero() {
                 Featured Remodel
               </div>
               <div>
-                <span className="text-xs tracking-wider uppercase opacity-85">Kennebecasis River view</span>
+                <span className="text-xs tracking-wider uppercase opacity-85">Scenic waterfront view</span>
                 <h4 className="font-serif text-xl sm:text-2xl font-bold mt-1">The Mid-Century Culinary Oasis</h4>
               </div>
             </div>

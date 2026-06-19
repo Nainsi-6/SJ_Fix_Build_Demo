@@ -46,7 +46,7 @@ export const SERVICES: Service[] = [
       'Premium floating hardwood staircases',
       'Hidden compartment integrations and bespoke doors'
     ],
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=82&w=1200',
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=82&w=1200',
     size: 'normal'
   },
   {
@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
     title: 'Premium Structural Decks',
     category: 'Outdoor Living',
     description: 'Sophisticated multi-tier outdoor spaces designed for entertaining, featuring premium cedarwood and architectural composite materials.',
-    fullDetails: 'We extend your luxury living experience outdoors. Our premium deck builds are engineered for the robust New Brunswick winters, using concrete piers and heavy-gauge rust-resistant framing.',
+    fullDetails: 'We extend your luxury living experience outdoors. Our premium deck builds are engineered for the robust regional weather conditions, using concrete piers and heavy-gauge rust-resistant framing.',
     features: [
       'Bespoke cedarwood & premium grade composite decking',
       'Invisible fastening systems for smooth bareground walking',
@@ -69,7 +69,7 @@ export const SERVICES: Service[] = [
     id: 'additions',
     title: 'Luxury Home Extensions & Transformations',
     category: 'Whole House Remodeling',
-    description: 'Grand expansions and full-house architectural transformations that preserve the historic character of Saint John homes while introducing state-of-the-art living.',
+    description: 'Grand expansions and full-house architectural transformations that preserve your home\'s historic character while introducing state-of-the-art living.',
     fullDetails: 'From structural expansion blueprints to final paint finishes, we provide a unified approach to extensive home additions, maximizing square footage and light infiltration.',
     features: [
       'Architectural design & zoning compliance consultation',
@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
     id: 'rothesay-kitchen',
     title: 'The Mid-Century Culinary Oasis',
     type: 'Architectural Kitchen',
-    location: 'Rothesay, NB',
+    location: 'Your Area',
     timeline: '8 Weeks',
     description: 'A complete structural remodel merging two traditional closed rooms into a flowing mid-century modern kitchen. Features custom white oak cabinetry, a massive 12-foot quartzite island, and concealed luxury appliances.',
     scope: [
@@ -106,7 +106,7 @@ export const PROJECTS: Project[] = [
     id: 'millidgeville-spa',
     title: 'Sanctuary Master Bath Suite',
     type: 'Bathroom Spa Remodel',
-    location: 'Millidgeville, St. John',
+    location: 'Your Area',
     timeline: '5 Weeks',
     description: 'Transforming a fragmented 1980s bathroom into an organic modern home spa. Utilizing concrete-look tile with cedar accents, floating stone vanities, and a custom oversized steam shower.',
     scope: [
@@ -122,11 +122,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'uptown-loft',
-    title: 'Historic Uptown Custom Built-ins',
+    title: 'Historic Custom Built-ins Loft',
     type: 'Bespoke Millwork & Brick Incorporation',
-    location: 'Uptown Saint John, NB',
+    location: 'Your Area',
     timeline: '3 Weeks',
-    description: 'Designing and mounting high-end library shelving and custom fireplace millwork in a historic brick loft overlooking the Saint John Harbour. Custom fit to match historical uneven floors with absolute level precision.',
+    description: 'Designing and mounting high-end library shelving and custom fireplace millwork in a historic brick loft overlooking the local waterfront. Custom fit to match historical uneven floors with absolute level precision.',
     scope: [
       'Hand-selected rift-sawn walnut woodwork construction',
       'Precision mounting into historic red brick structures securely',
@@ -140,11 +140,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'quispamsis-deck',
-    title: 'Kennebecasis Riverview Vista Deck',
+    title: 'Riverview Vista Deck',
     type: 'Luxury Outdoor Space',
-    location: 'Quispamsis, NB',
+    location: 'Your Area',
     timeline: '4 Weeks',
-    description: 'A structural, two-story engineering feat overlooking the Kennebecasis River. Constructed with high-performance TimberTech composite boards, frameless safety glass railings, and a lower-level rain shelter ceiling.',
+    description: 'A structural, two-story engineering feat overlooking the local riverfront. Constructed with high-performance TimberTech composite boards, frameless safety glass railings, and a lower-level rain shelter ceiling.',
     scope: [
       'Deep frost-protected helical pile foundations and ledger-free framing',
       'Premium composite cladding in warm Brazilian Walnut colorway',
@@ -162,28 +162,28 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 'review-1',
     name: 'Eleanor Vance',
-    location: 'Rothesay, NB',
+    location: 'Your Area',
     projectType: 'Architectural Kitchen Remodel',
     rating: 5,
-    content: 'SJ Fix & Build transformed our outdated kitchen into the heart of our home. Their attention to detail was jaw-dropping. The White Oak cabinetry is literally a piece of art. Most importantly, they kept the workspace incredibly clean and finished precisely on schedule.',
+    content: 'The team transformed our outdated kitchen into the heart of our home. Their attention to detail was jaw-dropping. The White Oak cabinetry is literally a piece of art. Most importantly, they kept the workspace incredibly clean and finished precisely on schedule.',
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=300'
   },
   {
     id: 'review-2',
     name: 'Marcus Sterling',
-    location: 'Millidgeville, St. John',
+    location: 'Your Area',
     projectType: 'Custom Bathroom Suite & Carpentry',
     rating: 5,
-    content: 'From our first consultation to the final item on the walk-through checklist, they behaved like true design-build artists, not typical general contractors. The curb-less shower tile runs absolute perfection, and the heated slate floors are incredible in the winter.',
+    content: 'From our first consultation to the final item on the walk-through checklist, they behaved like true design-build artists, not typical general contractors. The curb-less shower tile runs absolute perfection, and the heated floors are incredible.',
     image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=300'
   },
   {
     id: 'review-3',
     name: 'Dr. Evelyn Chen',
-    location: 'Uptown Saint John, NB',
-    projectType: 'Historic Brick Loft Renovation',
+    location: 'Your Area',
+    projectType: 'Historic Loft Renovation',
     rating: 5,
-    content: 'Living in a historic building Uptown comes with major structural quirks. SJ Fix & Build navigated the uneven brick walls with genius solutions. The custom walnut library shelves look like they were built with the original structure in 1890, but function with modern perfection.',
+    content: 'Living in a historic building comes with major structural quirks. The team navigated the uneven brick walls with genius solutions. The custom walnut library shelves look like they were built with the original structure, but function with modern perfection.',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300'
   }
 ];
@@ -192,7 +192,7 @@ export const TEAM_MEMBERS = [
   {
     name: 'Sergei James',
     role: 'Founder & Principal Craftsman',
-    bio: 'With over 18 years of fine carpentry and structural renovation experience, Sergei oversees every project blueprint and finish detail. His passion for warm wood structures and clean contemporary lines guides the SJ signature look.',
+    bio: 'With over 18 years of fine carpentry and structural renovation experience, Sergei oversees every project blueprint and finish detail. His passion for warm wood structures and clean contemporary lines guides our design approach.',
     image: 'https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?auto=format&fit=crop&q=80&w=400'
   },
   {

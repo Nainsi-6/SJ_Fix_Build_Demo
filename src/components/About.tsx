@@ -16,19 +16,19 @@ export default function About() {
               Our Story
             </span>
             <h2 className="font-serif text-2xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white leading-[1.15] sm:leading-[1.12]">
-              Inherited Craftsmanship Preserving Saint John Heritage
+              Inherited Craftsmanship Preserving Architectural Heritage
             </h2>
             <p className="text-sm sm:text-base leading-relaxed text-gray-600 dark:text-zinc-300">
-              Founded to deliver premium residential renovations across Southern New Brunswick. <span className="hidden sm:inline">Homes in southern New Brunswick possess distinct historic architectural bones — whether a classic brick loft Uptown or a majestic cedar estate in Rothesay.</span>
+              Founded to deliver premium residential renovations across your local area. <span className="hidden sm:inline">Homes in our local communities possess distinct historic architectural bones — whether a classic brick loft downtown or a majestic cedar estate in the suburbs.</span>
             </p>
             <p className="text-sm leading-relaxed text-gray-500 dark:text-zinc-400 hidden sm:block">
-              We focus on building envelopes resilient to heavy Bay of Fundy fog, structural floor deflection calculations, and clean joinery that handles local seasonal timber expansion flawlessly. 
+              We focus on building envelopes resilient to robust regional weather conditions, structural floor deflection calculations, and clean joinery that handles seasonal timber expansion flawlessly. 
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
               <div className="flex items-center space-x-3">
                 <Building2 className="w-5 h-5 text-terracotta dark:text-dark-accent" />
-                <span className="text-xs font-semibold text-gray-800 dark:text-zinc-200">Local Corporate Office, Uptown</span>
+                <span className="text-xs font-semibold text-gray-800 dark:text-zinc-200">Local Area Design Studio</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Award className="w-5 h-5 text-terracotta dark:text-dark-accent" />

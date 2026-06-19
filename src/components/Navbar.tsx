@@ -55,7 +55,7 @@ export default function Navbar() {
             SJ<span className="text-terracotta dark:text-dark-accent">.</span> FIX &amp; BUILD
           </span>
           <span className="text-[9px] uppercase tracking-[0.25em] text-gray-500 dark:text-zinc-400 font-sans group-hover:text-terracotta dark:group-hover:text-dark-accent transition-colors duration-300">
-            Saint John, New Brunswick
+            Home Improvement Experts
           </span>
         </button>
 

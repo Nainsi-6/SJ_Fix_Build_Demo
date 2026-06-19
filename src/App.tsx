@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import RecentTransformations from './components/RecentTransformations';
 import TrustBuilders from './components/TrustBuilders';
 import Services from './components/Services';
 import Projects from './components/Projects';
@@ -8,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import About from './components/About';
 import EstimateForm from './components/EstimateForm';
 import Footer from './components/Footer';
+import FloatingActions from './components/FloatingActions';
 
 export default function App() {
   return (
@@ -20,6 +22,9 @@ export default function App() {
         
         {/* HERO SECTION */}
         <Hero />
+
+        {/* RECENT TRANSFORMATIONS SECTION (3 high-fidelity demonstration cards) */}
+        <RecentTransformations />
 
         {/* TRUST BUILDERS (Licensed & Insured, Estimates, local pride) */}
         <TrustBuilders />
@@ -41,6 +46,9 @@ export default function App() {
 
         {/* FREE ESTIMATE CALCULATION LEAD FORM */}
         <EstimateForm />
+
+        {/* FLOATING ACTION UTILITIES (WhatsApp popup + One-touch Dial) */}
+        <FloatingActions />
 
       </main>
 

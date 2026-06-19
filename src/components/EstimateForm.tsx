@@ -12,7 +12,7 @@ export default function EstimateForm() {
     fullName: '',
     email: '',
     phone: '',
-    location: 'Rothesay, NB',
+    location: 'Downtown / Central',
     projectType: 'Kitchen Renovation',
     budgetRange: '$25,000 - $50,000',
     timeline: 'Within 1-3 Months',
@@ -129,7 +129,7 @@ export default function EstimateForm() {
                 Let&rsquo;s Cost &amp; Design Your Project
               </h2>
               <p className="text-gray-500 dark:text-zinc-400 text-sm leading-relaxed">
-                Submit details about your residential structure. Within 24 hours, Sergei James will evaluate your scope guidelines and schedule a brief personal phone consultation.
+                Submit details about your residential structure. Within 24 hours, our principal design-build consultant will evaluate your scope guidelines and schedule a brief personal phone consultation.
               </p>
             </div>
 
@@ -264,13 +264,12 @@ export default function EstimateForm() {
                           onChange={handleInputChange}
                           className="w-full bg-warm-ivory dark:bg-zinc-950 border border-warm-border dark:border-zinc-800 px-4 py-3 text-sm text-gray-900 dark:text-white focus:outline-hidden focus:border-terracotta dark:focus:border-dark-accent rounded-none"
                         >
-                          <option value="Rothesay, NB">Rothesay, NB</option>
-                          <option value="Uptown Saint John, NB">Uptown Saint John, NB</option>
-                          <option value="Millidgeville, NB">Millidgeville, NB</option>
-                          <option value="Quispamsis, NB">Quispamsis, NB</option>
-                          <option value="West Saint John, NB">West Saint John, NB</option>
-                          <option value="Fredericton, NB">Fredericton, NB</option>
-                          <option value="Charlotte County / Surrounding">Other NB Communities</option>
+                          <option value="Downtown / Central">Downtown / Central</option>
+                          <option value="Westside Suburbs">Westside Suburbs</option>
+                          <option value="Eastside Suburbs">Eastside Suburbs</option>
+                          <option value="Northside Suburbs">Northside Suburbs</option>
+                          <option value="Waterfront District">Waterfront District</option>
+                          <option value="Surrounding Service Areas">Surrounding Service Areas</option>
                         </select>
                       </div>
 
@@ -422,7 +421,7 @@ export default function EstimateForm() {
                       type="submit"
                       className="w-full py-4.5 bg-terracotta dark:bg-dark-accent select-none text-white hover:bg-terracotta-hover dark:hover:bg-amber-600 font-semibold uppercase tracking-widest text-xs flex items-center justify-center space-x-2 transition-all duration-300 shadow-md cursor-pointer"
                     >
-                      <span>Transmit Request to Sergei</span>
+                      <span>Transmit Request to Consultant</span>
                       <Send className="w-4 h-4" />
                     </button>
                   </motion.form>
@@ -442,7 +441,7 @@ export default function EstimateForm() {
                         Blueprint Request Transmitted Successfully
                       </h3>
                       <p className="text-sm text-gray-500 dark:text-zinc-400 max-w-md mx-auto">
-                        Thank you for coordinating with SJ Fix &amp; Build, <strong>{formData.fullName}</strong>. Clarissa will review your stone/wood inspirations, and Sergei will reach out to <strong>{formData.phone}</strong> inside 24 business hours.
+                        Thank you for coordinating with Premium Renovations, <strong>{formData.fullName}</strong>. Our design planners will review your stone/wood inspirations, and our estimator will reach out to <strong>{formData.phone}</strong> inside 24 business hours.
                       </p>
                     </div>
 
@@ -463,7 +462,7 @@ export default function EstimateForm() {
                           fullName: '',
                           email: '',
                           phone: '',
-                          location: 'Rothesay, NB',
+                          location: 'Downtown / Central',
                           projectType: 'Kitchen Renovation',
                           budgetRange: '$25,000 - $50,000',
                           timeline: 'Within 1-3 Months',
